@@ -30,6 +30,7 @@ class HomeController extends GetxController {
     try {
       final response = await http.get(
         Uri.parse(
+          // api ที่ต้องการ
           'https://67ea33e034bcedd95f629044.mockapi.io/api/v1/projects',
         ),
       );
